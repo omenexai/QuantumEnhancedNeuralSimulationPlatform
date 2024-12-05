@@ -40,7 +40,7 @@ The project is organized to ensure clarity, scalability, and usability for resea
 
 css
 
-qemns_platform/
+QuantumEnhancedNeuralSimulationPlatform/
 ├── src
 │   ├── neural_simulation.c
 │   ├── quantum_model.c
