@@ -40,9 +40,9 @@ The project is organized to ensure clarity, scalability, and usability for resea
 
 
 
-
-QuantumEnhancedNeuralSimulationPlatform/
 ```
+QuantumEnhancedNeuralSimulationPlatform/
+
 ├── src
 │   ├── neural_simulation.c
 │   ├── quantum_model.c
@@ -83,7 +83,7 @@ Usage
 
 
 Command Line Arguments
-
+```
 -i, --iterations N: Number of simulation iterations (default: 100)
 -v, --verbose: Enable detailed output
 --network-size X Y Z: Set the dimensions for multi-scale simulations (default: 10x10x10)
@@ -92,9 +92,11 @@ Command Line Arguments
 --dx DX, --dt DT: Spatial and time step sizes (default: 0.1)
 --activation FUNC: Choose the activation function for the neural network (options: relu, tanh, sigmoid)
 --log LOG_FILE: Specify the log file (default: simulation.log)
+```
+
 Example Usage
 Run a basic multi-scale simulation with default settings:
-
+``
 
 ```
 ./quantum_neural_simulation --activation relu
