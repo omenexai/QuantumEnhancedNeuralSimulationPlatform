@@ -132,12 +132,14 @@ Citation
 If you use this project in your research, please cite it as follows:
 
 bibtex
-
+```
 @software{QuantumEnhancedNeuralSimulationPlatform,
   author = {omenex},
   title = {Quantum-Enhanced Multi-Scale Neural Simulation Platform},
   year = {2024},
   url = {https://github.com/omenexai/QuantumEnhancedNeuralSimulationPlatform}
+```
+
 }
 License
 This project is licensed under the MIT License.
