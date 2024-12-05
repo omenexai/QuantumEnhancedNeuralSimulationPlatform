@@ -38,9 +38,11 @@ Quantum-Driven Learning: Utilize quantum reinforcement learning models to explor
 ##Directory Structure
 The project is organized to ensure clarity, scalability, and usability for researchers:
 
-css
+
+
 
 QuantumEnhancedNeuralSimulationPlatform/
+```
 ├── src
 │   ├── neural_simulation.c
 │   ├── quantum_model.c
@@ -63,17 +65,25 @@ QuantumEnhancedNeuralSimulationPlatform/
 │   └── simulation_output.h
 ├── Makefile
 └── README.md
+```
+
 Installation
 The platform is written in C and designed for compatibility across various systems. To get started, you’ll need a standard C compiler like gcc. Simply compile the code using the following command:
 
-bash
 
+```
 make
-Usage
-bash
+```
 
+Usage
+
+```
 ./quantum_neural_simulation [OPTIONS]
+```
+
+
 Command Line Arguments
+
 -i, --iterations N: Number of simulation iterations (default: 100)
 -v, --verbose: Enable detailed output
 --network-size X Y Z: Set the dimensions for multi-scale simulations (default: 10x10x10)
@@ -85,28 +95,37 @@ Command Line Arguments
 Example Usage
 Run a basic multi-scale simulation with default settings:
 
-bash
 
+```
 ./quantum_neural_simulation --activation relu
+```
+
 Run a simulation with 500 iterations and verbose output, using custom quantum coupling constants:
 
-bash
 
+```
 ./quantum_neural_simulation -i 500 -v --coupling-constants 0.5 1.0 -0.8 --activation sigmoid
+```
+
 Set a custom network size for a hybrid quantum-classical simulation:
 
-bash
 
+```
 ./quantum_neural_simulation --network-size 20 20 20 --coupling-constants 1.0 0.5 -0.5 --activation tanh
+```
+
 Specify the initial state and save output to a custom log file:
 
-bash
 
+```
 ./quantum_neural_simulation --initial-state random --log custom_output.log
+```
+
 Available Activation Functions
-relu: Rectified Linear Unit, ideal for general purpose networks.
-tanh: Hyperbolic tangent, suitable for capturing non-linear dependencies.
-sigmoid: Logistic sigmoid, useful for probabilistic outputs.
+``` relu:```  Rectified Linear Unit, ideal for general purpose networks.
+``` tanh:``` Hyperbolic tangent, suitable for capturing non-linear dependencies.
+```sigmoid:``` Logistic sigmoid, useful for probabilistic outputs.
+
 Citation
 If you use this project in your research, please cite it as follows:
 
