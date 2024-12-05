@@ -140,7 +140,7 @@ bibtex
   url = {https://github.com/omenexai/QuantumEnhancedNeuralSimulationPlatform}
 ```
 
-}
+
 License
 This project is licensed under the MIT License.
 
